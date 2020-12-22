@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>module 3 Solution</title>
+	    <link rel="stylesheet" href="css/bootstrap.min.css">
+	    <link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com"> 
+		<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com
+		<link href="https://fonts.googleapis.com/css2?family=Catamaran&family=Indie+Flower&display=swap" rel="stylesheet">
+
+	</head>
+	<body>
+	 	<header>
+	 		<nav id="header-nav" class="navbar navbar-default">
+	 			<div class="container">
+	 				<div class="navbar-header">
+	 					<a href="index.html" class="pull-left visible-md visible-lg">
+	 						<div id="logo-img" alt="Logo image"></div>
+	 					</a>
+	 					<div class="navbar-brand">
+	 						<a href="index.html"><h1>Burger time</h1></a><br>
+
+	 						<h2>Tarifs Livraison / minimum 10€</h2><hr>
+	 					</div>
+				          <button type="button" class="navbar-toggle "collapsed data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+				            <span class="sr-only">Toggle navigation</span>
+				            <span class="icon-bar"></span>
+				            <span class="icon-bar"></span>
+				            <span class="icon-bar"></span>
+				           	<span class="icon-bar"></span>
+				            <span class="icon-bar"></span>
+				            <span class="icon-bar"></span>
+				          </button>
+	 				</div>
+	 				
+	 				<div id="collapsable-nav" class="collapse navbar-collapse">
+		 				<ul id="nav-list" class="nav navbar-nav navbar-right">
+
+		 					<li class="visible-xs active">
+	              				<a href="index.html">
+	                				<span class="glyphicon glyphicon-home"></span> Home</a>
+	            			</li>
+		 					<li>
+		 						<a href="index.html">
+		 							<span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Home</a>
+		 					</li>
+		 					<li>
+		 						<a href="#">
+		 							<span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">About
+		 						</a>
+		 					</li>
+		 					<li>
+		 						<a href="#">
+		 							<span class="glyphicon glyphicon-envelope"></span><br class="hidden-xs"> 10 rue de Meyrin,<br> 01210 Ferney-Voltaire
+		 						</a>
+		 					</li>
+		 					<li id="phone" class="hidden-xs">
+		 						<a href="tel: 06-51-74-86-52">
+		 							<span class="glyphicon glyphicon-phone">06-51-96-42-55</span>
+		 						</a><div class="delivery">* We Deliver</div>
+				            </li>
+			         	</ul><!-- #nav-list -->
+			        </div><!-- .collapse .navbar-collapse -->
+			    </div><!-- .container -->
+			<!-- </nav> --><!-- #header-nav -->
+	        <div> id="header-nav2" class="navbar navbar-default">
+	<!--  			<div class="container">
+	 				<div class="navbar-header">
+	 					<a href="index.html" class="pull-left visible-md visible-lg">
+	 						<div id="logo-img" alt="Logo image"></div>
+	 					</a>
+
+				          <button type="button" class="navbar-toggle "collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+				            <span class="sr-only">Toggle navigation</span>
+				            <span class="icon-bar"></span>
+				            <span class="icon-bar"></span>
+				            <span class="icon-bar"></span>
+				          </button>
+	 				</div>
+	 -->
+
+	 				<div id="collapsable-nav" class="collapse navbar-collapse">
+		 				<ul id="nav-list2" class="nav navbar-nav navbar-right">
+		 					<li class="visible-xs active">
+	              				<a href="index.html">
+	                				<span class="glyphicon glyphicon-home"></span> Home</a>
+	            			</li>
+	            			<li>
+	                            <a class="active" href="/" target="">
+	                   				<span data-hover="Qui sommes-nous ?">Qui sommes-nous ?</span>
+	                   			</a>
+	                   		</li>
+	  		               	<li>
+	             	            <a href="/burgers.html" target="">
+	    	                	    <span data-hover="Burgers">Burgers</span>
+	           				    </a>
+	           				</li>
+	                        <li>
+	                            <a href="/sandwichs-kebab" target="">
+	                   				<span data-hover="Sandwichs Kebab">Sandwichs Kebab</span>
+	                   			</a>
+	                        </li>
+	                        <li>
+	                            <a href="/tacos" target="">
+	                	   			<span data-hover="Tacos">Tacos</span>
+	               				</a>
+	                        </li>
+	                        <li>
+	                            <a href="/snacking" target="">
+	                      			<span data-hover="Snacking">Snacking</span>
+	                  			</a>
+	                        </li>
+	                        <li>
+	                            <a href="/menu-enfant-7-50" target="">
+	                     		    <span data-hover="Menu Enfant 7,50 €">Menu Enfant 7,50 €</span>
+	                  			</a>
+	                        </li>
+	                        <li>
+	                            <a href="/sauces" target="">
+	                        		<span data-hover="Sauces">Sauces</span>
+	                        	</a>
+	                        </li>
+	                         <li>
+	                            <a href="/desserts" target="">
+	                        		<span data-hover="Desserts">Desserts</span>
+	                        	</a>
+	                        </li>
+	                        <li>
+	                            <a href="/boissons" target="">
+	                        		<span data-hover="Boissons">Boissons</span>
+	                        	</a>
+	                        </li>
+	                        <li>
+	                      	    <a href="/contact" target="">
+	                        		<span data-hover="Contact">Contact</span>
+	                        	</a>
+	                        </li>
+	                    </ul>
+	    			</div>
+	    		</nav>
+			</div>
+		</nav>
+		
+		</header>
+
+			<div id="call-btn" class="visible-xs">
+			    <a href="tel: 06-51-74-86-52">
+			    	<span class="glyphicon glyphicon-phone"></span>
+			    06-51-74-86-52
+			    </a> 
+			 </div>
+				
+
+
+				<!-- main page -->
+
+		<div id="main-content" class="container">
+			<div>
+			<h1>Burger Times à Ferney-Voltaire</h1>
+			 	<h3>Burger Times, pour une pause gourmande dans le Bassin Lémanique</h3>
+			 		 <div id="main-text">
+	 					<p>Dans notre restaurant à Ferney-Voltaire, nous vous proposons une carte variée de burgers aux différentes garnitures.
+
+						Classique, Montagnard, Italien ou encore Végétarien, faites votre choix.
+
+						Dans le souci de vous garantir le bon goût, notre cuisinier utilise des viandes et des légumes fraîches ainsi que des sauces savoureuses.
+
+						Que vous soyez à Beausoleil ou à Cap-d’Ail, poussez les portes de Burger Times. Nous vous garantissons un service rapide et de qualité.</p>
+					</div>
+			</div>
+
+   <section class="row">
+      <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-photo">
+              <div>B01</div>
+              <img class="img-responsive" width="250" height="150" src="https://www.burgertimes.fr/userfiles/24637/Burger/LE-CLASSIQUE--Burger.jpg" alt="LE-CLASSIQUE--Burger">
+            </div>
+            <div class="menu-item-price">7.00€<span> (Seul)</span> 9.50€ <span>(menu)</span></div>
+          </div>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Le Classique Burger</h3>
+            <p class="menu-item-details">Steak du boucher, cheddar, oignon cru, tomate, salade</p>
+          </div>
+        </div>
+        <hr class="visible-xs">
+      </div>
+
+      <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-photo">
+              <div>B02</div>
+              <img class="img-responsive" width="250" height="150" src="https://www.burgertimes.fr/userfiles/24637/Burger/L’ITALIEN.jpg" alt="L’ITALIEN">
+          </div>
+            <div class="menu-item-price">8.00€<span> (Seul)</span> 10.50€ <span>(menu)</span></div>
+          </div>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">L'Italien</h3>
+            <p class="menu-item-details">Steak du boucher, cheddar, oignon cru, tomate, salade</p>
+          </div>
+        </div>
+        <hr class="visible-xs">
+      </div>
+
+      <!-- Add after every 2nd menu-item-tile -->
+      <div class="clearfix visible-lg-block visible-md-block"></div>
+
+      <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-photo">
+              <div>B03</div>
+              <img class="img-responsive" width="250" height="150" src="https://www.burgertimes.fr/userfiles/24637/Burger/BURGER-TIMES.jpg" alt="Burger-times">
+          	</div>
+            <div class="menu-item-price">9.50€<span> (Seul)</span> 12.00€ <span>(menu)</span></div>
+          </div>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Burger Time</h3>
+            <p class="menu-item-details">Steak du boucher, cheddar, oignon cru, tomate, salade</p>
+          </div>
+        </div>
+        <hr class="visible-xs">
+      </div>
+
+    <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-photo">
+              <div>B04</div>
+              <img class="img-responsive" width="250" height="150" src="https://www.burgertimes.fr/userfiles/24637/Burger/CHICKEN.jpg" alt="Lunch"> 
+          	</div>
+            <div class="menu-item-price">10.95€<span> (Seul)</span> 14.95€ <span>(menu)</span></div>
+          </div>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Chicken</h3>
+            <p class="menu-item-details">Steak du boucher, cheddar, oignon cru, tomate, salade</p>
+          </div>
+        </div>
+        	<hr class="visible-xs">
+    </div>
+
+
+      <!-- Add after every 2nd menu-item-tile -->
+      <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-photo">
+              <div>B05</div>
+              <img class="img-responsive" width="250" height="150" src="https://www.burgertimes.fr/userfiles/24637/Burger/LE-MONTAGNARD.jpg" alt="Le-Montagnard">
+          	</div>
+            <div class="menu-item-price">10.00€<span> (Seul)</span> 12.50€ <span>(menu)</span></div>
+          </div>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Le Montagnard</h3>
+            <p class="menu-item-details">Steak du boucher, cheddar, oignon cru, tomate, salade</p>
+          </div>
+        </div>
+        <hr class="visible-xs">
+      </div>
+
+    <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-photo">
+              <div>B06</div>
+              <img class="img-responsive" width="250" height="150" src="https://www.burgertimes.fr/userfiles/24637/Burger/VEGETARIEN.jpg" alt="Végétarien">
+          	</div>
+            <div class="menu-item-price">7.00€<span> (Seul)</span> 9.50€ <span>(menu)</span></div>
+          </div>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Végétarien</h3>
+            <p class="menu-item-details">Steak du boucher, cheddar, oignon cru, tomate, salade</p>
+          </div>
+        </div>
+        	<hr class="visible-xs">
+    </div>
+
+      <!-- Add after every 2nd menu-item-tile -->
+      <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-photo">
+              <div>B07</div>
+              <img class="img-responsive" width="250" height="150" src="https://www.burgertimes.fr/userfiles/24637/Burger/CHEESE.jpg" alt="Cheese"> 
+          	</div>
+            <div class="menu-item-price">3.00€<span> (Seul)</span> 5.50€ <span>(menu)</span></div>
+          </div>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Cheese</h3>
+            <p class="menu-item-details">Steak du boucher, cheddar, oignon cru, tomate, salade</p>
+          </div>
+        </div>
+        <hr class="visible-xs">
+      </div>
+
+    <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-photo">
+              <div>B08</div>
+              <img class="img-responsive" width="250" height="150" src="https://www.burgertimes.fr/userfiles/24637/Burger/DOUBLE.jpg" alt="Double-Cheese"> 
+          	</div>
+            <div class="menu-item-price">4.00€<span> (Seul)</span> 6.50€ <span>(menu)</span></div>
+          </div>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Double Cheese</h3>
+            <p class="menu-item-details">Steak du boucher, cheddar, oignon cru, tomate, salade</p>
+          </div>
+        </div>
+        	<hr class="visible-xs">
+		</div>
+
+      <!-- Add after every 2nd menu-item-tile -->
+      <div class="clearfix visible-lg-block visible-md-block"></div>
+
+          <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-photo">
+              <div>B09</div>
+              <img class="img-responsive" width="250" height="150" src="https://www.burgertimes.fr/userfiles/24637/Burger/LE-MAC.jpg" alt="Le-Mac"> 
+          	</div>
+            <div class="menu-item-price">5.00€<span> (Seul)</span> 7.50€ <span>(menu)</span></div>
+          </div>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Le Mac</h3>
+            <p class="menu-item-details">Steak du boucher, cheddar, oignon cru, tomate, salade</p>
+          </div>
+        </div>
+        	<hr class="visible-xs">
+		</div>
+
+
+      <!-- Add after every 2nd menu-item-tile -->
+      <div class="clearfix visible-lg-block visible-md-block"></div>
+
+
+		<footer class="panel-footer">
+		    <div class="container">
+		      <div class="row">
+		        <section id="hours" class="col-sm-4">
+		          <span>Horaire:</span><br>
+		          Sun-Thurs: 11:30am - 14:00pm<br>
+		          Sun-Thurs: 18:30am - 23:00pm<br>
+		          Fri: Closed<br>
+		          Saturday: 11:30am - 23:00pm
+		          <hr class="visible-xs">
+		        </section>
+		        <section id="address" class="col-sm-4">
+		          <span>Addresse:</span><br>
+		          10 rue de Meyrin<br>
+		          01210 Ferney-Voltaire France
+		          <p class="delivery">* Delivery area within 3-4 km, with minimum order of 10€ plus 3€ charge for all deliveries.</p>
+		          <hr class="visible-xs visible-sm-block">
+		        </section>
+		        <section id="testimonials" class="col-sm-4">
+		          <p>"The best Burger fast-food I've been to! And that's saying a lot, since I've been to many!"</p>
+		          <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+		        </section>
+		      </div>
+		      <div class="text-center">&copy; Copyright Burger Time 2021</div>
+		    </div>
+		</footer>
+	  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
